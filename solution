@@ -1,0 +1,8 @@
+a=input()
+k=[]
+for i in range(len(a)):
+    for i in a[:i+1:]:
+        if i not in k:
+            k.append(i)
+print(len(k))
+
